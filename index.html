@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        User regerstation form
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-form-contact-us-icons-flaticons-lineal-color-flat-icons.png" type="image/x-icon">
+</head>
+<body>
+    <center>
+        <h1>User Registration Form</h1>
+        <form action="" name="Form1" onsubmit="return(validate());">
+       Name: <input type="text" name="FullName" placeholder="Please enter your name" id=""><span id="fnv"></span>
+       <br>
+       <br>
+       E-mail:<input type="email" name="Email" placeholder="someone@gmail.com" id=""><span id="ev"></span>
+       <br>
+       <br>
+        Mobile NO:<input type="text" name="MobileNo" placeholder="123-456-7890" id=""><span id="mv"></span>
+        <br>
+        <br>
+        Date of birth<input type="date" name="DOB" placeholder="dd-mm-yyyy" id=""><span id="DOBv"></span>
+        <br>
+        <br>
+        User Name:<input type="text" name="UserName" placeholder="noob1324" id=""> <span id="uv"></span>
+        <br>
+        <br>
+        Password:<input type="password" name="Password" placeholder="1234567890" id=""> <span id="pv"></span>
+        <br>
+        <br>
+        Conform Password:<input type="password" name="ConformPassword"> <span id="cpv"></span>
+        <br>
+        <br>
+        Select Your Gender:
+        Male<input type="radio" name="Gender" id="">
+        Female<input type="radio" name="Gender" id=""><span id="gv"></span>
+        <br>
+        <br>
+        Select Your country:
+        <select name="Country" id="">
+        <option value="-1" selected>Choose your contry</option>
+        <option value="1">India</option>
+        <option value="2">UK</option>
+        <option value="3">USA</option>
+        <option value="4">Germany</option>
+        <option value="5">Japan</option>
+        <option value="6">Other</option>
+        </select><span id="cov"></span>
+        <br>
+        <br>
+        If other what country: <input type="text" name="" id="">
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="reset" value="reset">'
+        <input type="submit" value="submit">
+</form>
+    </center>
+</body>
+</html>
